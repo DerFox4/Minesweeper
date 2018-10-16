@@ -1,0 +1,84 @@
+body {
+  font-family: 'Source Sans Pro', 'Trebuchet MS', 'Lucida Grande', 'Bitstream Vera Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+h1{
+  font-size: 35px;
+}
+
+button {
+  font-weight: bold;
+  width: 40px;
+  height: 35px;
+  font-size: 25px;
+  margin: 1px;
+  background-color: lightgray;
+}
+
+.start {
+  width : 500px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.unknown{
+  color : pink;
+  background-color : white;
+}
+
+.unknown:after{
+  content: "?";
+}
+
+.marked {
+  color : white;
+  font-weight: normal;
+}
+
+.closed {
+  color: black;
+  font-weight: lighter;
+}
+
+.mine {
+  color: red;
+}
+
+.one {
+  color : blue;
+}
+
+.two {
+  color : darkgreen;
+}
+
+.three {
+  color : orangered;
+}
+
+.four {
+  color : purple;
+}
+
+.five {
+  color : yellow;
+}
+
+.six {
+  color : orange;
+}
+
+.seven {
+  color : fuchsia;
+}
+
+.eight {
+  color : darkgoldenrod;
+}
+
+.zero:after {
+  content: '\00a0';
+}
